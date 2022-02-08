@@ -10,3 +10,8 @@ The logic of the backend is implemented in the folder products ,in the file view
 In the same folder you have the database models in the file models2.py
 In the file urls.py from the folder proj521 you will find all the paths a client app can use to receve or send data to the aplication.
 The aplication is independent of the angular side but is best used coupled with this one.
+
+Between many features it also makes use of my trial twolio account used to send sms on users phones when they sign in ,log in or buy a product
+To use this feature you should make a personal account of twolio and set the phone numbers of your  users as verified numbers
+The changes you need to make in the app are in the file views.py 
+in account_side,auth_token and trial_number.
