@@ -1,6 +1,6 @@
 # BookStoreDjango
-Server application written in pyrhon and using django framework.
-It represents the back end side of my Bookshtore web side being coupled with the BookStoreAngularApp repository
+Server application written in python and using django framework.
+It represents the back end side of my Bookstore web side being coupled with the BookStoreAngularApp repository
 The aplication runs on windows , preferably windows10.
 To use the application you need a MySQL database, and change the database information in the file proj521/settings.py in the object DATABASES
 To start the server you need to make use of a cmd window opened in the Scripts folder and run activate.bat to open the virtual enviornment used by the python aplication.
